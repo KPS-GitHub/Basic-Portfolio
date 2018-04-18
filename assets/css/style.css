@@ -8,12 +8,67 @@ body {
 
 header {
     background-color: #ffffff;
-    border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960px;
+    margin: 0 auto;
 }
 
-.teal {
+/* Beginning of nav bar formatting */
+
+/* MAKE THE NAV BAR ON A STRAIGHT LINE AND FLOATING RIGHT!!!! */
+nav {
+    float: right;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+} 
+
+li {
+    float: right;
+}
+
+li a {
+    padding: 8px;
+    background-color: #dddddd;
+    float: right;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+/* End of nav bar formatting */
+
+/* name box formatting */
+.name {
     background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 0 10px;
+    float: left;
+}
+
+/* class to quickly add teal color to text for section headings */ 
+.teal {
+    color: #4aaaa5;
+}
+
+/* give div that contains header a bottom border that stretches all the way across the screen */
+.botBorder {
+    border-bottom: 2px solid #cccccc;
+    padding: 0;
+}
+
+/* basic formatting for main box of content on each page, whatever is not included in "body" css */
+.main {
+    width: 920px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: 2px solid #cccccc;
 }
 
 .myPic {
