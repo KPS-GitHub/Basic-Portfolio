@@ -194,7 +194,7 @@ input[type=submit]:hover {
 
 
 .portPics {
-    height: 500px;
+    height: 550px;
     margin-bottom: 200px;
     position: relative;
 }
@@ -263,4 +263,9 @@ input[type=submit]:hover {
 .img5 {
     position: absolute;
     top: 520px;
+}
+
+
+.botMarg {
+    margin-bottom: 100px;
 }
