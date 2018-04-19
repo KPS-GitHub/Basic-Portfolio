@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Contact KSmith</title>
+
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
@@ -13,18 +14,41 @@
                 </div>
                 <div class="nav">
                     <ul>
-                        <li><a>About</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>Contact</a></li>
+                        <li class="aboEl"><a class="back rightBorder" href="index.html">About</a></li>
+                        <li class="portEl"><a class="back rightBorder" href="portfolio.html">Portfolio</a></li>
+                        <li class="contEl"><a class="back" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </header>
         </div>
 
-            <div class="foot">           
-                <footer>
-    
-                </footer>
+        <div class="main back">
+            <h2 class="secHead botBorder">Contact</h2>
+
+            <div class="container">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+                </form>
             </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="foot">           
+            <footer>
+
+            </footer>
+        </div>
     </body>
 </html>
