@@ -1,24 +1,28 @@
 body {
     color: #777777;
-    background-color: #ffffff;
+    background-image: url("../images/concrete_seamless.png");
     border-color: #dddddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
 }
 
 header {
-    background-color: #ffffff;
+    background: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 960px;
     margin: 0 auto;
 }
 
+
+
 /* Beginning of nav bar formatting */
 
 /* MAKE THE NAV BAR ON A STRAIGHT LINE AND FLOATING RIGHT!!!! */
-nav {
-    float: right;
-    padding: 0;
+.nav {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    right: -902px;
 }
 
 ul {
@@ -35,7 +39,7 @@ li {
 li a {
     padding: 8px;
     background-color: #dddddd;
-    float: right;
+    display: block;
 }
 
 li a:hover {
@@ -48,8 +52,12 @@ li a:hover {
 .name {
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 0 10px;
-    float: left;
+    padding: 10px 10px;
+    width: 350px;
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+
 }
 
 /* class to quickly add teal color to text for section headings */ 
@@ -57,17 +65,24 @@ li a:hover {
     color: #4aaaa5;
 }
 
+.secHead {
+    color: #4aaaa5;
+    font-size: 30px;
+    padding: 30px 0px 0px 30px;
+}
+
 /* give div that contains header a bottom border that stretches all the way across the screen */
 .botBorder {
     border-bottom: 2px solid #cccccc;
-    padding: 0;
+    height: 68px;
+    margin-bottom: 15px;
 }
 
 /* basic formatting for main box of content on each page, whatever is not included in "body" css */
 .main {
     width: 920px;
-    margin: 20px auto 0;
-    padding: 10px 20px;
+    margin: 50px auto 0;
+    padding: 10px 20px 20px;
     border: 2px solid #cccccc;
 }
 
@@ -80,4 +95,37 @@ li a:hover {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+.fix {
+    position: fixed;
+}
+ 
+.foot {
+    background: #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    z-index: 1;
+    background: #555;
+}
+
+.back {
+    background: #ffffff;
 }
