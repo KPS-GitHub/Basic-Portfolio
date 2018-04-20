@@ -26,19 +26,12 @@ h3 {
 
 /* Beginning of nav bar formatting */
 
-/* MAKE THE NAV BAR ON A STRAIGHT LINE AND FLOATING RIGHT!!!! */
+
 .nav {
     width: 100%;
     height: 50px;
     position: absolute;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 60px;
-} 
 
 li a {
     padding: 8px;
@@ -50,6 +43,13 @@ li a:hover {
     background-color: #555;
     color: white;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+} 
 
 /* Forcing nav elements into place (can't make them stack horizontally) */
 .aboEl {
@@ -161,7 +161,7 @@ footer {
 }
 
 
-/* contact form styling (from w3 schools) */
+/* contact form styling (from w3schools.com) */
 
 input[type=text], select, textarea {
     width: 100%;
