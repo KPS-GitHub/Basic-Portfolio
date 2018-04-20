@@ -15,7 +15,7 @@ header {
 
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #4aaaa5;
+    background: #f48f0c;
     color: #ffffff;
     width: 200px;
     height: 42px;
@@ -79,7 +79,7 @@ li a:hover {
 
 /* name box formatting */
 .name {
-    background-color: #4aaaa5;
+    background-color: #f48f0c;
     color: #ffffff;
     padding: 19px 0px;
     width: 250px;
@@ -90,11 +90,11 @@ li a:hover {
 
 /* class to quickly add teal color to text for section headings */ 
 .teal {
-    color: #4aaaa5;
+    color: #f48f0c;
 }
 
 .secHead {
-    color: #4aaaa5;
+    color: #f48f0c;
     font-size: 30px;
     padding: 22px 0px 0px 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -145,7 +145,7 @@ li a:hover {
 }
  
 .foot {
-    background: #4aaaa5;
+    background: #f48f0c;
     position: fixed;
     bottom: 0;
     height: 40px;
@@ -181,7 +181,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4aaaa5;
+    background-color: #f48f0c;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -190,7 +190,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #4aaaa5be;
+    background-color: #f48f0cbe;
 }
 
 .container {
