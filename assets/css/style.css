@@ -122,7 +122,7 @@ li a:hover {
 
 .myPic {
     float: left;
-    padding: 0px 30px 20px 0px;
+    padding: 0px 20px 10px 0px;
 }
 
 .clearfix::after {
