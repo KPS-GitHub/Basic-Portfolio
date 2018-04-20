@@ -98,6 +98,7 @@ li a:hover {
     font-size: 30px;
     padding: 22px 0px 0px 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 /* give div that contains header a bottom border that stretches all the way across the screen */
